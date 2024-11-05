@@ -155,7 +155,8 @@ export const MatcherComponent = ({
 	else
 		return (
 			<div className={"error-toast"}>
-				💀 An error occurred while linking notes.
+				An error occurred while linking notes <br />
+				Matching State {matchingState}
 			</div>
 		);
 };
